@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Dana-Regular";
+    src: url("./Dana-Regular.ttf");
+}
+
+html{
+    font-family: "Dana-Regular" !important;
+}
+hr{
+    margin: 10px 0;
+    border-color: #cccccc;
+}
+table, th{
+    text-align: center !important;
+}
+.v-field__field, .v-input__details, .v-selection-control{
+    direction: rtl;
+}
+.custom-select{
+    width: 100%;
+    border-bottom: 1px solid #f6f6f6;
+    height: 50px;
+    border-radius: 5px;
+    background: #f6f6f6;
+}
